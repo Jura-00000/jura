@@ -18,8 +18,7 @@ body {
 
 }
 
-.navbar, .navbarAbout{
-    width: 1863px;
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,7 +26,7 @@ body {
     padding: 10px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
 }
 
 .navbar ul {
@@ -39,7 +38,7 @@ body {
 .navbar ul li {
     list-style: none;
     margin: 0 15px;
-    position: relative; 
+    position: relative;
 }
 
 .navbar ul li a {
@@ -48,20 +47,20 @@ body {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: bold;
-    position: relative; 
+    position: relative;
     transition: color 0.3s ease;
 }
 
 .navbar ul li a:hover {
-    color: #007BFF; 
+    color: #007BFF;
 }
 
 .navbar ul li a::after {
-    content: "";
+
     position: absolute;
     width: 0;
     height: 2px;
-    background: #007BFF; 
+    background: #007BFF;
     left: 50%;
     bottom: -5px;
     transition: width 0.3s ease, left 0.3s ease;
@@ -69,61 +68,30 @@ body {
 
 .navbar ul li a:hover::after {
     width: 100%;
-    left: 0; 
+    left: 0;
 }
 
 .navbar ul li:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
     transition: transform 0.2s ease;
 }
 
 
 
-@media (max-width: 720px) {
-    .companyLogo {
-        font-size: 15px;
-
-    }
-
-    
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 30px;
-    }
-    .navbar ul {
-        flex-direction: row;
-        
-    }
-    .navbar ul li a{
-        font-size: 11px;
-        
-    }
-
-    .wrapperIndex {
-        font-size: 20px;
-        margin-top: 50px;
-        margin-bottom: 100px;
-    }
-    .wrapperIndex h1 {
-        margin-bottom: 20px;
-    }
-}
-
-
-.wrapperIndex { 
+.wrapperIndex {
     font-size: 40px;
     text-align: center;
-    color: black;   
+    color: black;
     margin-top: 175px;
     margin-bottom: 225px;
 }
+
 .wrapperIndex h1 {
     margin: 25;
 }
 
 .wrapperIndex .donateBtn {
-    background: linear-gradient(90deg, #326273,#b4b1b1, #326273);
+    background: linear-gradient(90deg, #326273, #b4b1b1, #326273);
     background-size: 200% 200%;
     color: black;
     padding: 12px 24px;
@@ -138,10 +106,10 @@ body {
 }
 
 .wrapperIndex .donateBtn:hover {
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
-.wrapperIndex .donateBtn:active { 
+.wrapperIndex .donateBtn:active {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -149,9 +117,11 @@ body {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
@@ -170,28 +140,24 @@ body {
 
 
 
-.info-container .info-image{
+.info-container .info-image {
     width: 125px;
     height: 300px;
 }
 
-.info-container .info-image2{
+.info-container .info-image2 {
     width: 125px;
     height: 300px;
 }
 
-.info-container .info-image3{
-    width: 100px;
-    height: 300px;
-}
 
-.number  {
+.number {
     font-size: 50px;
 }
 
 
 .content-mission {
-    background-color:#EEEEEE;
+    background-color: #EEEEEE;
     padding: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     margin: auto;
@@ -215,7 +181,6 @@ body {
 
 .contentIndex {
     background-color: #ffffff;
-    width: 1703px;
     padding: 100px;
 }
 
@@ -238,8 +203,8 @@ body {
 
 .image-block img {
     width: 50%;
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: box-shadow 2s;
 }
 
@@ -255,22 +220,13 @@ body {
     margin: 10px;
 }
 
-@media (max-width: 720px) {
-    .contentIndex{
-        width: 600px;
-    }
-    .image-block{
-        flex-direction: initial;
-        margin-left: 0;
-    }
-}
 .about-us h1 {
     font-size: 45px;
     background: #326273;
     text-align: center;
-    padding: 25px;  
+    padding: 25px;
     color: white;
-    
+
 }
 
 .contentAbout {
@@ -278,8 +234,8 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
-    
-    
+
+
 }
 
 .contentAbout h1 {
@@ -287,9 +243,10 @@ body {
     font-size: 35px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border-bottom: 1px solid #839aa1;
-    
-    
+
+
 }
+
 .contentAbout p {
     font-size: 20px;
     margin: 25px 150px;
@@ -314,24 +271,23 @@ body {
 
 .member {
     text-align: center;
-    width: 150px;
+    width: 120px;
 }
 
 .member img {
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #ddd;
+    border: 1px solid #ddd;
 }
 
 .member p {
     float: inline-start;
-    margin-left: 65px;
-    margin-top: 25px;
+    margin-left: 45px;
     font-weight: bold;
     font-size: 15px;
-    
+
 }
 
 .container {
@@ -443,22 +399,22 @@ body {
 .wrapperOW h5 {
     font-weight: 100;
     opacity: 0;
-    animation: fadeIn 1.2s ease-out 0.7s forwards; 
+    animation: fadeIn 1.2s ease-out 0.7s forwards;
 }
 
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
 
 .contentOW {
-    width: 100%;
     padding: 30px;
-    background-color: #EEEEEE ;
+    background-color: #EEEEEE;
 }
 
 .contentOW .images {
@@ -480,8 +436,8 @@ body {
 
 .image-block img {
     width: 45%;
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .message {
@@ -490,11 +446,11 @@ body {
     margin: 20px;
 }
 
-.events h1{
+.events h1 {
     font-size: 45px;
     background: #326273;
     text-align: center;
-    padding: 25px;  
+    padding: 25px;
     color: white;
 }
 
@@ -518,6 +474,7 @@ body {
     margin-top: 10px;
     font-size: 12px;
 }
+
 .contentEvents p {
     font-size: 20px;
     margin: 25px 150px;
@@ -528,8 +485,8 @@ body {
     text-align: center;
     background: #5C9EAD;
     padding: 50px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .wrapperDonate h1 {
@@ -539,7 +496,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     margin: 0;
     animation: fadeInUp 2s ease-in-out forwards;
-    opacity: 0; 
+    opacity: 0;
     line-height: 1.5;
 }
 
@@ -548,6 +505,7 @@ body {
         opacity: 0;
         transform: scale(0.9);
     }
+
     100% {
         opacity: 1;
         transform: scale(1);
@@ -559,6 +517,7 @@ body {
         opacity: 0;
         transform: translateY(20px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -590,19 +549,18 @@ body {
     width: 100%;
     max-width: 300px;
     margin: 20px 0;
-    
+
 }
 
 .donation-info p {
     font-size: 15px;
-    line-height: 1.6;
     color: #000000;
 }
 
 
 .donation-form {
     flex: 1;
-    background-color:#EEEEEE;
+    background-color: #EEEEEE;
     padding: 20px;
 }
 
@@ -644,7 +602,8 @@ body {
     font-size: 36px;
 }
 
-.news-section, .containerNews {
+.news-section,
+.containerNews {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
@@ -659,12 +618,12 @@ body {
     align-items: center;
     background: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
     width: 100%;
     max-width: 1000px;
-    
+
 }
 
 .news-card:hover {
@@ -672,7 +631,7 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.news-card img{
+.news-card img {
     height: 100px;
     width: 50%;
 }
@@ -689,12 +648,11 @@ body {
 
 .news-summary {
     font-size: 16px;
-    line-height: 1.5;
     color: #666;
 }
 
 .gallery {
-    background-color: #5C9EAD ;
+    background-color: #5C9EAD;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -754,7 +712,7 @@ body {
 
 .getinvolved {
     text-align: center;
-    background: #5C9EAD ;
+    background: #5C9EAD;
     color: white;
     padding: 50px 20px;
 }
@@ -779,7 +737,8 @@ body {
     gap: 40px;
 }
 
-.get-involved-section, .get-involved-section2 {
+.get-involved-section,
+.get-involved-section2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -793,7 +752,8 @@ body {
 
 
 
-.get-involved-section:hover, .get-involved-section2:hover {
+.get-involved-section:hover,
+.get-involved-section2:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -829,7 +789,6 @@ body {
 
 .section-content p {
     font-size: 16px;
-    line-height: 1.5;
     color: #555;
 }
 
@@ -893,7 +852,7 @@ body {
 }
 
 
-.form-group .cb{
+.form-group .cb {
     display: block;
     font-size: 15px;
     font-weight: bold;
@@ -903,7 +862,7 @@ body {
 }
 
 
-.form-group input{
+.form-group input {
     width: 95%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -999,87 +958,213 @@ footer {
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 410px) {
     .companyLogo {
-        font-size: 15px;
+        font-size: 20px;
+        margin: 0;
+
 
     }
 
-    
     .navbar {
         flex-direction: column;
-        align-items: flex-start;
-        padding: 30px;
+        align-items: center;
+
     }
-    .navbar ul {
-        flex-direction: row;
-        
+
+
+    .navbar ul li {
+        width: 15px;
+        margin: 0 13px;
+
     }
-    .navbar ul li a{
-        font-size: 11px;
-        
+
+    .navbar ul li a {
+        font-size: 8px;
+
+
     }
 
     .wrapperIndex {
-        font-size: 25px;
-        margin-top: 50px;
-        margin-bottom: 100px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
+
     .wrapperIndex h1 {
-        margin-bottom: 20px;
+        font-size: 15px;
+
     }
 
-    .about-us h1{
-        font-size: 25px;
+    .wrapperIndex .donateBtn {
+        font-size: 5px;
+        padding: 6px 12px;
+    }
 
+    .content-mission h1 {
+        font-size: 15px;
+    }
+
+    .content-mission p {
+        font-size: 11px;
+        margin-right: 30px;
+    }
+
+    .stats {
+        gap: 30px;
+
+    }
+
+
+
+    .info-container .info-image {
+        width: 50px;
+        height: 50px;
+        margin-left: 40px;
+    }
+
+    .info-container .info-image2 {
+        width: 50px;
+        height: 50px;
+        margin-left: 65px;
+
+
+    }
+
+
+    .number,
+    .text {
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    .contentIndex {
+        padding: 20px;
+
+    }
+
+    .contentIndex .image-block {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .image-block
+
+    .quote-content p {
+        font-size: 11px;
+        margin-left: 5px;
+    }
+
+    .container-footer {
+        margin: 0;
+    }
+
+    .content-footer h3 {
+        font-size: 12px;
+
+    }
+
+    .content-footer p {
+        font-size: 10px;
+
+    }
+
+    .content-footer ul li {
+        font-size: 10px;
+    }
+
+    .content-footer ul li a {
+        font-size: 10px;
+    }
+
+    .bottom-bar p {
+        font-size: 9px;
+        margin-bottom: 1px;
+    }
+
+
+    .about-us h1 {
+        font-size: 15px;
+
+    }
+
+    .contentAbout {
+        padding: 0 30px;
     }
 
     .contentAbout p {
+        font-size: 11px;
+        margin: 0;
+    }
+
+    .ot-content {
+        padding: 20px;
+    }
+
+    .ot-content h1 {
         font-size: 15px;
-        margin-top: 5px;
+        margin-bottom: 15px;
     }
 
-    .ot-content h1{
-        font-size: 25px;
+
+
+    .grid {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
     }
 
-    .ot-content .grid {
-        flex-direction: row;
-        gap: 1px;
-        
+    .member {
+        text-align: center;
+
+    }
+
+
+
+    .member p {
+        font-weight: bold;
+        font-size: 8px;
 
     }
 
     .member img {
-        height: 100px;
-        width: 100px;
-    }
-
-    .member p {
-        font-size: 9px;
-        margin-left: 60px;
+        width: 50px;
+        height: 50px;
     }
 
     .wrapperOW {
-        font-size: 20px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-
-    .events h1 {
-        font-size: 25px;
-    }
-
-    
-
-    .contentEvents h1{
-        font-size: 20px;
-        margin: 10px;
+        font-size: 10px;
+        padding: 30px;
 
     }
 
-    .contentEvents p {
-        margin: 25px;
+    .contentOW {
+        padding: 40px;
+
+    }
+
+
+    .image-block {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+        
+    }
+
+
+    .image-block .imgow {
+        width: 200px;
+    }
+
+    .image-block .imgow2 {
+        width: 150px;
+    }
+
+
+    .message {
+        font-size: 10px;
+        margin: 25px 5px;
     }
 
     .containerNews {
@@ -1087,20 +1172,188 @@ footer {
         flex-direction: column;
     }
 
-    .get-involved-container{
-        width: 680px;
-        
+    .events h1 {
+
+        font-size: 15px;
     }
 
-    .get-involved-section img {
-        height: 150px;
+    .contentEvents h1 {
+        margin-top: 20px;
+        font-size: 15px;
     }
 
-    .get-involved-section2 img{
-        height: 150px;
+    .contentEvents h3 {
+        font-size: 10px;
+    }
+
+    .contentEvents p {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .wrapperDonate h1 {
+        font-size: 20px;
+    }
+
+    .donation-page {
+        display: block;
+        padding: 5px;
+
+
+
+    }
+
+    .donation-info {
+        flex: 0;
+        padding: 5px;
+
+
+    }
+
+    .donation-info h1 {
+        font-size: 15px;
+
+    }
+
+    .donation-info img {
+        width: 40%;
+
+
+    }
+
+    .donation-info p {
+        font-size: 11px;
+    }
+
+
+    .donation-form {
+        padding: 20px;
+    }
+
+    .donation-form h2 {
+        font-size: 15px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+
     }
 
     .donate-btn {
+        width: 20%;
+        padding: 10px 0;
+        font-size: 10px;
+        margin-left: 145px;
+    }
+
+    .form-group label {
+        font-size: 11px;
+    }
+
+    .form-group input {
+        font-size: 11px;
+    }
+
+    .form-group .cb {
+        font-size: 11px;
+    }
+
+    .containerNews h1 {
         font-size: 15px;
     }
+
+    .containerNews p {
+        font-size: 11px;
+    }
+
+    .news {
+        padding: 5px 0;
+    }
+
+
+    .news-section,
+    .containerNews {
+        gap: 20px;
+        margin-top: 5px;
+    }
+
+
+    .news-card img {
+        height: 50px;
+        width: 25%;
+    }
+
+    .news-content {
+        padding: 15px;
+    }
+
+    .news-content h2 {
+        font-size: 15px;
+    }
+
+    .gallery h1 {
+        font-size: 15px;
+    }
+
+    .getinvolved {
+        padding: 15px;
+    }
+
+    .getinvolved h1 {
+        font-size: 15px;
+        margin-bottom: 5px;
+
+    }
+
+    .getinvolved p {
+        font-size: 11px;
+
+    }
+
+
+    .get-involved-container {
+        gap: 20px;
+    }
+
+    .get-involved-section,
+    .get-involved-section2 {
+        gap: 5px;
+        padding: 5px;
+
+    }
+
+
+
+    .get-involved-section img {
+        height: 100px;
+        width: 50%;
+    }
+
+    .get-involved-section2 img {
+        height: 100px;
+        width: 25%;
+    }
+
+
+    .section-content {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .section-content h2 {
+        font-size: 14px;
+
+    }
+
+    .section-content p {
+        font-size: 11px;
+
+    }
+
+    .cta-button {
+        font-size: 9px;
+        margin-top: 10px;
+        padding: 6px 12px;
+       
+    }
+
+
 }
